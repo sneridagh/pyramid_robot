@@ -66,6 +66,11 @@ Then we define our test suite like::
 This will prepare the suite and will search for any file with the extension
 ``.robot`` inside the **robot** folder inside the test folder.
 
+Examples
+--------
+You can find a very simple test app, a fixture and a sample robot test in the
+test folder.
+
 Drawbacks
 ---------
 Call it a drawback, I call it a feature ;)
@@ -73,6 +78,16 @@ Call it a drawback, I call it a feature ;)
 You can only run the tests using ``zope.testing.testrunner``, otherwise they
 will get ignored. I think it would be also be possible to use other test runner
 like ``nose``, contributions are welcomed.
+
+You can setup easily a ``zc.buildout`` enviroment with the
+``zope.testing.testrunner`` like the one included in the root package. Just do::
+
+    $ python bootstrap.py
+    $ ./bin/buildout
+
+and then, to be able to run the example tests::
+
+    $ ./bin/test
 
 Documentation
 -------------
