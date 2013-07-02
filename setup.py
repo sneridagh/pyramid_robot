@@ -18,7 +18,7 @@ requires = [
 
 setup(name='pyramid_robot',
       version='1.0',
-      description='pyramid_robot',
+      description='Convenience package for enable RobotFramework tests under Pyramid.',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
           "Programming Language :: Python",
