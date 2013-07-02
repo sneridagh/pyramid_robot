@@ -1,7 +1,7 @@
 Pyramid testing with RobotFramework
 ===================================
 
-So finally, Pyramid got his Robot.
+So finally, Pyramid got its Robot.
 
 This is a convenience package to enable Robot Framework tests in Pyramid. Robot
 Framework is a generic test automation framework for acceptance testing and
@@ -66,6 +66,16 @@ Then we define our test suite like::
 This will prepare the suite and will search for any file with the extension
 ``.robot`` inside the **robot** folder inside the test folder.
 
+Drawbacks
+---------
+Call it a drawback, I call it a feature ;)
+
+You can only run the tests using ``zope.testing.testrunner``, otherwise they
+will get ignored. I think it would be also be possible to use other test runner
+like ``nose``, contributions are welcomed.
+
+Documentation
+-------------
 See RobotFramework documentation for resources on how to use it:
 
 http://code.google.com/p/robotframework/
