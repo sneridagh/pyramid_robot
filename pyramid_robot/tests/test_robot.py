@@ -39,5 +39,4 @@ def test_suite():
     return suite
 
 if __name__ == '__main__':
-    import ipdb;ipdb.set_trace()
     unittest.main(defaultTest='test_suite')
