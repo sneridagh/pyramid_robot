@@ -24,7 +24,7 @@ else:
     requires.append('robotframework')
 
 setup(name='pyramid_robot',
-      version='1.1',
+      version='1.2.dev0',
       description='Convenience package for enable RobotFramework tests under Pyramid.',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
