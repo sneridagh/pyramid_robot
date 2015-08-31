@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1 (unreleased)
+1.1 (2015-08-31)
 ----------------
 
 - Added Python 3.4 support.
